@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="javascript:init()">
+    <script>
+         function init(){
+        var k;
+        k = new Automobil("2355","Ime1","Prezime1","treca","Racunarska Tehnika","download.jpg","1w4");
+        k.render("desnaKolona");
+        k1 = new Automobil("23535","Ime2","download.jpg","treca","Racunarska Tehnika","","sa4r");
+        k1.renderpic("levaKolona");
+        k1.pic();
+        k = new Automobil("231355","Ime3","Prezime3","treca","Racunarska Tehnika","","1sg");
+        k.renderbutton("doleKolona");
+    }
+    </script>
+    <table id="glavni" cellspacing="0" cellpadding="0">
+        <tr id="glavniRed">
+            <td id="levaKolona">&nbsp;</td>   
+            <td id="desnaKolona">&nbsp;</td> 
+        </tr>
+        <tr><td id="doleKolona">&nbsp;</td></tr>
+        <tr id="glavniRed1">
+           
+            
+        </tr>
+    </table>
+   
+    
+</body>
+<script src="index.js" ></script>
+<script src="functions.js"></script>
+</html>
