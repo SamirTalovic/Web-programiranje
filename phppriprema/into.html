@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="display.php" method="post">
+    <label for="name">Name:</label>
+    <input type="text" name="name">
+    <label for="adress">Adress:</label>
+    <input type="text" name="adress">
+    <br>
+    <label for="city">City:</label>
+    <input type="text" name="city">
+    <label for="state">State:</label>
+    <input type="text" name="state">
+    <label for="zipcode">Zipcode:</label>
+    <input type="text" name="zipcode">
+    <label for="customer">Customer code:</label>
+    <input type="text" name="customer">
+    <br>
+    <label for="typeof">Type of wood:</label>
+    <select name="typeof">
+      <option value="oak">Oak</option>
+      <option value="birch">Birch</option>
+    </select>
+    <label for="size">Type</label>
+    <input type="radio" name="size" value="King">
+    <label for="size">King</label>
+    <input type="radio" name="size" value="Queen">
+    <label for="size">Queen</label>
+    <input type="radio" name="size" value="Tween">
+    <label for="size">Tween</label>
+    <input type="radio" name="size" value="Single">
+    <label for="size">Single</label>
+    <br>
+    <label>Extras:</label>
+    <input type="checkbox" name="extras[]" value="Footboard">
+    <label for="extras">Footboard</label>
+    <input type="checkbox" name="extras[]" value="Drawers">
+    <label for="extras">Drawers</label>
+    <input type="checkbox" name="extras[]" value="Casters">
+    <label for="extras">Casters</label>
+    <input type="checkbox" name="extras[]" value="Squeak proofing">
+    <label for="extras">Squeak proofing</label>
+    <br>
+    <label>Please share any suggestions for us:</label>
+    <br>
+    <textarea  name="comment" placeholder="Comment?"></textarea>
+    <br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset values">
+
+
+  </form>
+  
+</body>
+</html>
